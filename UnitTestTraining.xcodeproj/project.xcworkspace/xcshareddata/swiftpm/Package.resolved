@@ -1,0 +1,133 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Alamofire",
+        "repositoryURL": "https://github.com/Alamofire/Alamofire.git",
+        "state": {
+          "branch": null,
+          "revision": "9e0328127dfb801cefe8ac53a13c0c90a7770448",
+          "version": "5.4.0"
+        }
+      },
+      {
+        "package": "Dto",
+        "repositoryURL": "https://github.com/tuan188/Dto",
+        "state": {
+          "branch": null,
+          "revision": "b5465f7c05ab53fa976ceac229deceb1b82c82ac",
+          "version": "0.1.0"
+        }
+      },
+      {
+        "package": "MBProgressHUD",
+        "repositoryURL": "https://github.com/jdg/MBProgressHUD.git",
+        "state": {
+          "branch": null,
+          "revision": "bca42b801100b2b3a4eda0ba8dd33d858c780b0d",
+          "version": "1.2.0"
+        }
+      },
+      {
+        "package": "MGAPIService",
+        "repositoryURL": "https://github.com/tuan188/MGAPIService",
+        "state": {
+          "branch": null,
+          "revision": "15cdea4840647df4e667c26f80571f0ff0750b49",
+          "version": "3.0.0"
+        }
+      },
+      {
+        "package": "MGArchitecture",
+        "repositoryURL": "https://github.com/tuan188/MGArchitecture",
+        "state": {
+          "branch": null,
+          "revision": "abd67984455cf7f5127871eda999770afc59d09f",
+          "version": "2.0.1"
+        }
+      },
+      {
+        "package": "MGLoadMore",
+        "repositoryURL": "https://github.com/tuan188/MGLoadMore",
+        "state": {
+          "branch": null,
+          "revision": "b55034409e51b9bf4c2598dc7268e5a710520356",
+          "version": "3.0.1"
+        }
+      },
+      {
+        "package": "ObjectMapper",
+        "repositoryURL": "https://github.com/tristanhimmelman/ObjectMapper.git",
+        "state": {
+          "branch": null,
+          "revision": "0b96a734de3ea1c87374ae677064f86adb0716ec",
+          "version": "4.2.0"
+        }
+      },
+      {
+        "package": "OHHTTPStubs",
+        "repositoryURL": "https://github.com/AliSoftware/OHHTTPStubs.git",
+        "state": {
+          "branch": null,
+          "revision": "e92b5a5746ef16add2a1424f1fc19529d9a75cde",
+          "version": "9.0.0"
+        }
+      },
+      {
+        "package": "ESPullToRefresh",
+        "repositoryURL": "https://github.com/eggswift/pull-to-refresh",
+        "state": {
+          "branch": null,
+          "revision": "a858aaeb44abc6428af916e8496429d244fac053",
+          "version": "2.9.3"
+        }
+      },
+      {
+        "package": "Reusable",
+        "repositoryURL": "https://github.com/AliSoftware/Reusable",
+        "state": {
+          "branch": null,
+          "revision": "86cd17aa27e80d20bfe2ea57dd08958cf64664f4",
+          "version": "4.1.1"
+        }
+      },
+      {
+        "package": "RxAlamofire",
+        "repositoryURL": "https://github.com/RxSwiftCommunity/RxAlamofire.git",
+        "state": {
+          "branch": null,
+          "revision": "de9b20619da181931b32d6b15d5c8dc8cfa4c16b",
+          "version": "5.6.2"
+        }
+      },
+      {
+        "package": "RxSwift",
+        "repositoryURL": "https://github.com/ReactiveX/RxSwift.git",
+        "state": {
+          "branch": null,
+          "revision": "002d325b0bdee94e7882e1114af5ff4fe1e96afa",
+          "version": "5.1.1"
+        }
+      },
+      {
+        "package": "Then",
+        "repositoryURL": "https://github.com/devxoul/Then",
+        "state": {
+          "branch": null,
+          "revision": "e421a7b3440a271834337694e6050133a3958bc7",
+          "version": "2.7.0"
+        }
+      },
+      {
+        "package": "ValidatedPropertyKit",
+        "repositoryURL": "https://github.com/SvenTiigi/ValidatedPropertyKit.git",
+        "state": {
+          "branch": null,
+          "revision": "760c3c708e88c5e3c113e3a4dc26324ebaf351f7",
+          "version": "0.0.4"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
