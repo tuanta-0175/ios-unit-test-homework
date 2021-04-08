@@ -120,7 +120,7 @@
       },
       {
         "package": "ValidatedPropertyKit",
-        "repositoryURL": "https://github.com/SvenTiigi/ValidatedPropertyKit.git",
+        "repositoryURL": "https://github.com/SvenTiigi/ValidatedPropertyKit",
         "state": {
           "branch": null,
           "revision": "760c3c708e88c5e3c113e3a4dc26324ebaf351f7",
