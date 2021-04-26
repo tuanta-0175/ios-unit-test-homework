@@ -145,6 +145,14 @@
 		61E202B8251B439400995E27 /* Exercise10ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E202B7251B439400995E27 /* Exercise10ViewModel.swift */; };
 		61E202BA251B439D00995E27 /* Exercise10ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E202B9251B439D00995E27 /* Exercise10ViewController.swift */; };
 		61E202BE251C20F300995E27 /* Exercise10.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61E202BD251C20F300995E27 /* Exercise10.storyboard */; };
+		6A4F48BB263664F700693534 /* Exercise7ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F48B7263664F700693534 /* Exercise7ViewControllerTests.swift */; };
+		6A4F48BC263664F700693534 /* Exercise7ViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F48B8263664F700693534 /* Exercise7ViewModelTests.swift */; };
+		6A4F48BD263664F700693534 /* Exercise7NavigatorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F48B9263664F700693534 /* Exercise7NavigatorMock.swift */; };
+		6A4F48BE263664F700693534 /* Exercise7UseCaseMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F48BA263664F700693534 /* Exercise7UseCaseMock.swift */; };
+		6A4F48C62636659F00693534 /* Exercise8ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F48C22636659F00693534 /* Exercise8ViewControllerTests.swift */; };
+		6A4F48C72636659F00693534 /* Exercise8ViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F48C32636659F00693534 /* Exercise8ViewModelTests.swift */; };
+		6A4F48C82636659F00693534 /* Exercise8NavigatorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F48C42636659F00693534 /* Exercise8NavigatorMock.swift */; };
+		6A4F48C92636659F00693534 /* Exercise8UseCaseMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F48C52636659F00693534 /* Exercise8UseCaseMock.swift */; };
 		716A53652511A5DA0034DC60 /* Exercise2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 716A53642511A5DA0034DC60 /* Exercise2.storyboard */; };
 		716A536C2511A7AE0034DC60 /* Exercise2UseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716A53672511A7AE0034DC60 /* Exercise2UseCase.swift */; };
 		716A536D2511A7AE0034DC60 /* Exercise2Assembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716A53682511A7AE0034DC60 /* Exercise2Assembler.swift */; };
@@ -316,6 +324,14 @@
 		61E202B7251B439400995E27 /* Exercise10ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise10ViewModel.swift; sourceTree = "<group>"; };
 		61E202B9251B439D00995E27 /* Exercise10ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise10ViewController.swift; sourceTree = "<group>"; };
 		61E202BD251C20F300995E27 /* Exercise10.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Exercise10.storyboard; sourceTree = "<group>"; };
+		6A4F48B7263664F700693534 /* Exercise7ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise7ViewControllerTests.swift; sourceTree = "<group>"; };
+		6A4F48B8263664F700693534 /* Exercise7ViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise7ViewModelTests.swift; sourceTree = "<group>"; };
+		6A4F48B9263664F700693534 /* Exercise7NavigatorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise7NavigatorMock.swift; sourceTree = "<group>"; };
+		6A4F48BA263664F700693534 /* Exercise7UseCaseMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise7UseCaseMock.swift; sourceTree = "<group>"; };
+		6A4F48C22636659F00693534 /* Exercise8ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise8ViewControllerTests.swift; sourceTree = "<group>"; };
+		6A4F48C32636659F00693534 /* Exercise8ViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise8ViewModelTests.swift; sourceTree = "<group>"; };
+		6A4F48C42636659F00693534 /* Exercise8NavigatorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise8NavigatorMock.swift; sourceTree = "<group>"; };
+		6A4F48C52636659F00693534 /* Exercise8UseCaseMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise8UseCaseMock.swift; sourceTree = "<group>"; };
 		716A53642511A5DA0034DC60 /* Exercise2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Exercise2.storyboard; sourceTree = "<group>"; };
 		716A53672511A7AE0034DC60 /* Exercise2UseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise2UseCase.swift; sourceTree = "<group>"; };
 		716A53682511A7AE0034DC60 /* Exercise2Assembler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise2Assembler.swift; sourceTree = "<group>"; };
@@ -682,6 +698,8 @@
 		177763ED261E8BE3005CC014 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				6A4F48C12636658400693534 /* Exercise8 */,
+				6A4F48B6263664DD00693534 /* Exercise7 */,
 				177763EE261E8BE3005CC014 /* TestError.swift */,
 				177763EF261E8BE3005CC014 /* App */,
 				177763F8261E8BE4005CC014 /* Exercise2 */,
@@ -933,6 +951,28 @@
 				61E202B9251B439D00995E27 /* Exercise10ViewController.swift */,
 			);
 			path = Exercise10;
+			sourceTree = "<group>";
+		};
+		6A4F48B6263664DD00693534 /* Exercise7 */ = {
+			isa = PBXGroup;
+			children = (
+				6A4F48B7263664F700693534 /* Exercise7ViewControllerTests.swift */,
+				6A4F48B8263664F700693534 /* Exercise7ViewModelTests.swift */,
+				6A4F48B9263664F700693534 /* Exercise7NavigatorMock.swift */,
+				6A4F48BA263664F700693534 /* Exercise7UseCaseMock.swift */,
+			);
+			path = Exercise7;
+			sourceTree = "<group>";
+		};
+		6A4F48C12636658400693534 /* Exercise8 */ = {
+			isa = PBXGroup;
+			children = (
+				6A4F48C22636659F00693534 /* Exercise8ViewControllerTests.swift */,
+				6A4F48C32636659F00693534 /* Exercise8ViewModelTests.swift */,
+				6A4F48C42636659F00693534 /* Exercise8NavigatorMock.swift */,
+				6A4F48C52636659F00693534 /* Exercise8UseCaseMock.swift */,
+			);
+			path = Exercise8;
 			sourceTree = "<group>";
 		};
 		716A53662511A79E0034DC60 /* Exercise2 */ = {
@@ -1258,13 +1298,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				17776488261E8BE4005CC014 /* GettingExercisesTests.swift in Sources */,
+				6A4F48C92636659F00693534 /* Exercise8UseCaseMock.swift in Sources */,
 				1777648A261E8BE4005CC014 /* CalculateFeeTest.swift in Sources */,
 				17776494261E8BE4005CC014 /* ClotherOrderTests.swift in Sources */,
+				6A4F48BD263664F700693534 /* Exercise7NavigatorMock.swift in Sources */,
 				17776486261E8BE4005CC014 /* ExerciseGatewayMock.swift in Sources */,
 				1777645D261E8BE4005CC014 /* Exercise3ViewControllerTests.swift in Sources */,
 				17776451261E8BE4005CC014 /* AppViewModelTests.swift in Sources */,
+				6A4F48BC263664F700693534 /* Exercise7ViewModelTests.swift in Sources */,
+				6A4F48BB263664F700693534 /* Exercise7ViewControllerTests.swift in Sources */,
 				17776458261E8BE4005CC014 /* Exercise2ViewModelTests.swift in Sources */,
 				1777648B261E8BE4005CC014 /* CaculatingClotherDiscountTest.swift in Sources */,
+				6A4F48C62636659F00693534 /* Exercise8ViewControllerTests.swift in Sources */,
+				6A4F48BE263664F700693534 /* Exercise7UseCaseMock.swift in Sources */,
 				1777647D261E8BE4005CC014 /* MainViewControllerTests.swift in Sources */,
 				1777645F261E8BE4005CC014 /* Exercise3UseCaseMock.swift in Sources */,
 				17776452261E8BE4005CC014 /* AppUseCaseMock.swift in Sources */,
@@ -1272,6 +1318,8 @@
 				1777645C261E8BE4005CC014 /* Exercise3NavigatorMock.swift in Sources */,
 				1777647E261E8BE4005CC014 /* MainUseCaseMock.swift in Sources */,
 				1777645A261E8BE4005CC014 /* Exercise2UseCaseMock.swift in Sources */,
+				6A4F48C82636659F00693534 /* Exercise8NavigatorMock.swift in Sources */,
+				6A4F48C72636659F00693534 /* Exercise8ViewModelTests.swift in Sources */,
 				17776480261E8BE4005CC014 /* MainNavigatorMock.swift in Sources */,
 				1777647C261E8BE4005CC014 /* ExerciseCellTests.swift in Sources */,
 				1777647F261E8BE4005CC014 /* MainViewModelTests.swift in Sources */,
