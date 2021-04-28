@@ -53,22 +53,40 @@ extension CalculateBadmintonFee {
     func calculatePlayFee(dto: BadmintonGameDto) -> Double {
         guard dto.validationError == nil else { return 0.0 }
         
-        if dto.ageValue < 13 {
-            return 1800.0 / 2
+        let calculator = BadmintonFeeCalculator()
+        
+        return calculator.calculateFee(
+            age: Int(dto.ageValue),
+            isFemal: !dto.isMale,
+            weekDay: dto.playDate.dayInWeek()
+        )
+    }
+}
+
+final class BadmintonFeeCalculator {
+    func calculateFee(
+        age: Int,
+        isFemal: Bool,
+        weekDay: Date.DayInWeek
+    ) -> Double {
+        let fee: Double = 1800.0
+        
+        if age < 13 {
+            return fee / 2
         }
         
-        if dto.playDate.dayInWeek() == .tuesday {
+        if weekDay == .tuesday {
             return 1200.0
         }
         
-        if !dto.isMale && dto.playDate.dayInWeek() == .friday {
+        if isFemal && weekDay == .friday {
             return 1400.0
         }
         
-        if dto.ageValue > 65 {
+        if age > 65 {
             return 1600.0
         }
-        
-        return 1800.0
+       
+        return fee
     }
 }
