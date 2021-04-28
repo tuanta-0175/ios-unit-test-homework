@@ -47,14 +47,44 @@ extension CaculatingTransportationFee {
     func calculationFee(dto: VietnamMartOrderDto) -> (standardFee: Double, quickFee: Double) {
         guard dto.validationError == nil else { return (0, 0) }
         
-        var standardDeliver = 500.0
-        var quickDeliver = 0.0
+        let deliveryFeeCalculator = DeliveryFeeCalculator()
+        return deliveryFeeCalculator.getDeliveryFee(
+            for: dto.cartAmountValue,
+            isPremiumMember: dto.isPremiumMember,
+            isQuickDeliver: dto.isQuickDeliver
+        )
         
-        if dto.cartAmountValue >= 5000 || dto.isPremiumMember {
+//        var standardDeliver = 500.0
+//        var quickDeliver = 0.0
+//
+//        if dto.cartAmountValue >= 5000 || dto.isPremiumMember {
+//            standardDeliver = 0.0
+//        }
+//
+//        if dto.isQuickDeliver {
+//            quickDeliver = 500.0
+//        }
+//
+//        return (standardDeliver, quickDeliver)
+    }
+}
+
+typealias DeliveryFees = (standardFee: Double, quickFee: Double)
+
+final class DeliveryFeeCalculator {
+    func getDeliveryFee(
+        for amount: Double,
+        isPremiumMember: Bool,
+        isQuickDeliver: Bool
+    ) -> DeliveryFees {
+        var standardDeliver: Double = 500.0
+        var quickDeliver: Double = 0.0
+        
+        if amount >= 5000 || isPremiumMember {
             standardDeliver = 0.0
         }
         
-        if dto.isQuickDeliver {
+        if isQuickDeliver {
             quickDeliver = 500.0
         }
         

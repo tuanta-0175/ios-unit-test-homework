@@ -118,6 +118,7 @@
 		17BBD8AB252B159E003535D1 /* APIUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BBD8AA252B159E003535D1 /* APIUrls.swift */; };
 		17BBD8B4252B1950003535D1 /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BBD8B2252B1950003535D1 /* ArticleCell.swift */; };
 		17BBD8B5252B1950003535D1 /* ArticleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17BBD8B3252B1950003535D1 /* ArticleCell.xib */; };
+		41F9835926390C9800155FAA /* DeliveryFeeCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F9835826390C9800155FAA /* DeliveryFeeCalculatorTests.swift */; };
 		5297A24C250B27A1002745A9 /* Exercise3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5297A247250B27A0002745A9 /* Exercise3ViewController.swift */; };
 		5297A24D250B27A1002745A9 /* Exercise3ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5297A248250B27A0002745A9 /* Exercise3ViewModel.swift */; };
 		5297A24E250B27A1002745A9 /* Exercise3Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5297A249250B27A1002745A9 /* Exercise3Navigator.swift */; };
@@ -289,6 +290,7 @@
 		17BBD8AA252B159E003535D1 /* APIUrls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIUrls.swift; sourceTree = "<group>"; };
 		17BBD8B2252B1950003535D1 /* ArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
 		17BBD8B3252B1950003535D1 /* ArticleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArticleCell.xib; sourceTree = "<group>"; };
+		41F9835826390C9800155FAA /* DeliveryFeeCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryFeeCalculatorTests.swift; sourceTree = "<group>"; };
 		5297A247250B27A0002745A9 /* Exercise3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise3ViewController.swift; sourceTree = "<group>"; };
 		5297A248250B27A0002745A9 /* Exercise3ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise3ViewModel.swift; sourceTree = "<group>"; };
 		5297A249250B27A1002745A9 /* Exercise3Navigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise3Navigator.swift; sourceTree = "<group>"; };
@@ -682,6 +684,8 @@
 		177763ED261E8BE3005CC014 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				41F9834A2639041700155FAA /* Exercise7 */,
+				41F9834B2639041F00155FAA /* Exercise8 */,
 				177763EE261E8BE3005CC014 /* TestError.swift */,
 				177763EF261E8BE3005CC014 /* App */,
 				177763F8261E8BE4005CC014 /* Exercise2 */,
@@ -715,10 +719,10 @@
 		177763FD261E8BE4005CC014 /* Exercise3 */ = {
 			isa = PBXGroup;
 			children = (
-				177763FE261E8BE4005CC014 /* Exercise3NavigatorMock.swift */,
-				177763FF261E8BE4005CC014 /* Exercise3ViewControllerTests.swift */,
 				17776400261E8BE4005CC014 /* Exercise3ViewModelTests.swift */,
 				17776401261E8BE4005CC014 /* Exercise3UseCaseMock.swift */,
+				177763FE261E8BE4005CC014 /* Exercise3NavigatorMock.swift */,
+				177763FF261E8BE4005CC014 /* Exercise3ViewControllerTests.swift */,
 			);
 			path = Exercise3;
 			sourceTree = "<group>";
@@ -878,6 +882,21 @@
 				17BBD89B252B101C003535D1 /* APIService.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		41F9834A2639041700155FAA /* Exercise7 */ = {
+			isa = PBXGroup;
+			children = (
+				41F9835826390C9800155FAA /* DeliveryFeeCalculatorTests.swift */,
+			);
+			path = Exercise7;
+			sourceTree = "<group>";
+		};
+		41F9834B2639041F00155FAA /* Exercise8 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Exercise8;
 			sourceTree = "<group>";
 		};
 		5297A246250B2772002745A9 /* Exercise3 */ = {
@@ -1261,6 +1280,7 @@
 				1777648A261E8BE4005CC014 /* CalculateFeeTest.swift in Sources */,
 				17776494261E8BE4005CC014 /* ClotherOrderTests.swift in Sources */,
 				17776486261E8BE4005CC014 /* ExerciseGatewayMock.swift in Sources */,
+				41F9835926390C9800155FAA /* DeliveryFeeCalculatorTests.swift in Sources */,
 				1777645D261E8BE4005CC014 /* Exercise3ViewControllerTests.swift in Sources */,
 				17776451261E8BE4005CC014 /* AppViewModelTests.swift in Sources */,
 				17776458261E8BE4005CC014 /* Exercise2ViewModelTests.swift in Sources */,
