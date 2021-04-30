@@ -34,11 +34,11 @@ extension VietnamMartOrderDto {
     }
 }
 
-protocol CaculatingTransportationFee {
+protocol CalculatingTransportationFee {
     
 }
 
-extension CaculatingTransportationFee {
+extension CalculatingTransportationFee {
     
     func validateCardAmount(_ amount: String) -> ValidationResult {
         return VietnamMartOrderDto.validateCartAmount(amount).mapToVoid()

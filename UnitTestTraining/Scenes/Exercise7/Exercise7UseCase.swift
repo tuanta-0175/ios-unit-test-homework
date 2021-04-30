@@ -14,6 +14,6 @@ protocol Exercise7UseCaseType {
     func validateCardAmount(_ amount: String) -> ValidationResult
 }
 
-struct Exercise7UseCase: Exercise7UseCaseType, CaculatingTransportationFee {
+struct Exercise7UseCase: Exercise7UseCaseType, CalculatingTransportationFee {
 
 }

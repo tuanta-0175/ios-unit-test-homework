@@ -13,7 +13,7 @@
 		0E1206DF250F29190071C1F9 /* Exercise7Assembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1206DA250F29190071C1F9 /* Exercise7Assembler.swift */; };
 		0E1206E0250F29190071C1F9 /* Exercise7UseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1206DB250F29190071C1F9 /* Exercise7UseCase.swift */; };
 		0E1206EA250F295A0071C1F9 /* Exercise7.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E1206E9250F295A0071C1F9 /* Exercise7.storyboard */; };
-		0E1206ED250F3E2B0071C1F9 /* CaculatingTransportationFee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1206EB250F3DFD0071C1F9 /* CaculatingTransportationFee.swift */; };
+		0E1206ED250F3E2B0071C1F9 /* CalculatingTransportationFee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1206EB250F3DFD0071C1F9 /* CalculatingTransportationFee.swift */; };
 		0E4C36112512E0ED006A2047 /* Exercise8ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4C360C2512E0EC006A2047 /* Exercise8ViewController.swift */; };
 		0E4C36122512E0ED006A2047 /* Exercise8UseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4C360D2512E0EC006A2047 /* Exercise8UseCase.swift */; };
 		0E4C36132512E0ED006A2047 /* Exercise8ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4C360E2512E0EC006A2047 /* Exercise8ViewModel.swift */; };
@@ -118,6 +118,8 @@
 		17BBD8AB252B159E003535D1 /* APIUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BBD8AA252B159E003535D1 /* APIUrls.swift */; };
 		17BBD8B4252B1950003535D1 /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BBD8B2252B1950003535D1 /* ArticleCell.swift */; };
 		17BBD8B5252B1950003535D1 /* ArticleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17BBD8B3252B1950003535D1 /* ArticleCell.xib */; };
+		51A7E667263BE39900C13D94 /* CaculatingTransportationFeeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A7E666263BE39900C13D94 /* CaculatingTransportationFeeTest.swift */; };
+		51A7E66C263BEA2E00C13D94 /* CalculateBadmintonFeeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A7E66B263BEA2E00C13D94 /* CalculateBadmintonFeeTest.swift */; };
 		5297A24C250B27A1002745A9 /* Exercise3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5297A247250B27A0002745A9 /* Exercise3ViewController.swift */; };
 		5297A24D250B27A1002745A9 /* Exercise3ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5297A248250B27A0002745A9 /* Exercise3ViewModel.swift */; };
 		5297A24E250B27A1002745A9 /* Exercise3Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5297A249250B27A1002745A9 /* Exercise3Navigator.swift */; };
@@ -187,7 +189,7 @@
 		0E1206DA250F29190071C1F9 /* Exercise7Assembler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise7Assembler.swift; sourceTree = "<group>"; };
 		0E1206DB250F29190071C1F9 /* Exercise7UseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise7UseCase.swift; sourceTree = "<group>"; };
 		0E1206E9250F295A0071C1F9 /* Exercise7.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Exercise7.storyboard; sourceTree = "<group>"; };
-		0E1206EB250F3DFD0071C1F9 /* CaculatingTransportationFee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaculatingTransportationFee.swift; sourceTree = "<group>"; };
+		0E1206EB250F3DFD0071C1F9 /* CalculatingTransportationFee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatingTransportationFee.swift; sourceTree = "<group>"; };
 		0E4C360C2512E0EC006A2047 /* Exercise8ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise8ViewController.swift; sourceTree = "<group>"; };
 		0E4C360D2512E0EC006A2047 /* Exercise8UseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise8UseCase.swift; sourceTree = "<group>"; };
 		0E4C360E2512E0EC006A2047 /* Exercise8ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise8ViewModel.swift; sourceTree = "<group>"; };
@@ -289,6 +291,8 @@
 		17BBD8AA252B159E003535D1 /* APIUrls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIUrls.swift; sourceTree = "<group>"; };
 		17BBD8B2252B1950003535D1 /* ArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
 		17BBD8B3252B1950003535D1 /* ArticleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArticleCell.xib; sourceTree = "<group>"; };
+		51A7E666263BE39900C13D94 /* CaculatingTransportationFeeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaculatingTransportationFeeTest.swift; sourceTree = "<group>"; };
+		51A7E66B263BEA2E00C13D94 /* CalculateBadmintonFeeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateBadmintonFeeTest.swift; sourceTree = "<group>"; };
 		5297A247250B27A0002745A9 /* Exercise3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise3ViewController.swift; sourceTree = "<group>"; };
 		5297A248250B27A0002745A9 /* Exercise3ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise3ViewModel.swift; sourceTree = "<group>"; };
 		5297A249250B27A1002745A9 /* Exercise3Navigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise3Navigator.swift; sourceTree = "<group>"; };
@@ -764,6 +768,8 @@
 		17776436261E8BE4005CC014 /* UseCases */ = {
 			isa = PBXGroup;
 			children = (
+				51A7E66A263BEA0600C13D94 /* Exercise8 */,
+				516F7E59263BD25200390F0A /* Exercise7 */,
 				17776437261E8BE4005CC014 /* GettingExercisesTests.swift */,
 				1777643A261E8BE4005CC014 /* Exercise2 */,
 				1777643C261E8BE4005CC014 /* Exercise3 */,
@@ -880,6 +886,22 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
+		516F7E59263BD25200390F0A /* Exercise7 */ = {
+			isa = PBXGroup;
+			children = (
+				51A7E666263BE39900C13D94 /* CaculatingTransportationFeeTest.swift */,
+			);
+			path = Exercise7;
+			sourceTree = "<group>";
+		};
+		51A7E66A263BEA0600C13D94 /* Exercise8 */ = {
+			isa = PBXGroup;
+			children = (
+				51A7E66B263BEA2E00C13D94 /* CalculateBadmintonFeeTest.swift */,
+			);
+			path = Exercise8;
+			sourceTree = "<group>";
+		};
 		5297A246250B2772002745A9 /* Exercise3 */ = {
 			isa = PBXGroup;
 			children = (
@@ -962,7 +984,7 @@
 		B6D5557A2510EE5000439F84 /* Exercise7 */ = {
 			isa = PBXGroup;
 			children = (
-				0E1206EB250F3DFD0071C1F9 /* CaculatingTransportationFee.swift */,
+				0E1206EB250F3DFD0071C1F9 /* CalculatingTransportationFee.swift */,
 			);
 			path = Exercise7;
 			sourceTree = "<group>";
@@ -1235,7 +1257,7 @@
 				C96892F2250A2A2E000FFF5F /* Exercise4ViewController.swift in Sources */,
 				61E202A2251B3A9C00995E27 /* CalculateRestaurantPromotion.swift in Sources */,
 				9C90E28025148AD600EFE188 /* Exersice6Assembler.swift in Sources */,
-				0E1206ED250F3E2B0071C1F9 /* CaculatingTransportationFee.swift in Sources */,
+				0E1206ED250F3E2B0071C1F9 /* CalculatingTransportationFee.swift in Sources */,
 				11CE6274251D2A1E0032E5DF /* Exercise9UseCase.swift in Sources */,
 				11CE627C251D2A3C0032E5DF /* Exercise9ViewModel.swift in Sources */,
 				177389C425071EA2003B5CD7 /* GatewaysAssembler.swift in Sources */,
@@ -1259,6 +1281,7 @@
 			files = (
 				17776488261E8BE4005CC014 /* GettingExercisesTests.swift in Sources */,
 				1777648A261E8BE4005CC014 /* CalculateFeeTest.swift in Sources */,
+				51A7E66C263BEA2E00C13D94 /* CalculateBadmintonFeeTest.swift in Sources */,
 				17776494261E8BE4005CC014 /* ClotherOrderTests.swift in Sources */,
 				17776486261E8BE4005CC014 /* ExerciseGatewayMock.swift in Sources */,
 				1777645D261E8BE4005CC014 /* Exercise3ViewControllerTests.swift in Sources */,
@@ -1276,6 +1299,7 @@
 				1777647C261E8BE4005CC014 /* ExerciseCellTests.swift in Sources */,
 				1777647F261E8BE4005CC014 /* MainViewModelTests.swift in Sources */,
 				17776453261E8BE4005CC014 /* AppNavigatorMock.swift in Sources */,
+				51A7E667263BE39900C13D94 /* CaculatingTransportationFeeTest.swift in Sources */,
 				17776459261E8BE4005CC014 /* Exercise2ViewControllerTests.swift in Sources */,
 				17776487261E8BE4005CC014 /* DateGatewayMock.swift in Sources */,
 				1777645B261E8BE4005CC014 /* Exercise2NavigatorMock.swift in Sources */,
@@ -1478,7 +1502,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = UnitTestTrainingTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1498,7 +1522,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = UnitTestTrainingTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
