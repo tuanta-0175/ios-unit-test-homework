@@ -152,6 +152,16 @@
 		716A536F2511A7AE0034DC60 /* Exercise2ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716A536A2511A7AE0034DC60 /* Exercise2ViewModel.swift */; };
 		716A53702511A7AE0034DC60 /* Exercise2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716A536B2511A7AE0034DC60 /* Exercise2ViewController.swift */; };
 		716A53722511AE650034DC60 /* CalculatingFee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716A53712511AE650034DC60 /* CalculatingFee.swift */; };
+		8B11DC5426491BEB0022B925 /* Exercise7NavigatorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B11DC5026491BEA0022B925 /* Exercise7NavigatorMock.swift */; };
+		8B11DC5526491BEB0022B925 /* Exercise7ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B11DC5126491BEA0022B925 /* Exercise7ViewControllerTests.swift */; };
+		8B11DC5626491BEB0022B925 /* Exercise7ViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B11DC5226491BEA0022B925 /* Exercise7ViewModelTests.swift */; };
+		8B11DC5726491BEB0022B925 /* Exercise7UseCaseMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B11DC5326491BEB0022B925 /* Exercise7UseCaseMock.swift */; };
+		8B11DC6126491E3C0022B925 /* Exercise8ViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B11DC5D26491E3C0022B925 /* Exercise8ViewModelTests.swift */; };
+		8B11DC6226491E3C0022B925 /* Exercise8NavigatorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B11DC5E26491E3C0022B925 /* Exercise8NavigatorMock.swift */; };
+		8B11DC6326491E3C0022B925 /* Exercise8UseCaseMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B11DC5F26491E3C0022B925 /* Exercise8UseCaseMock.swift */; };
+		8B11DC6426491E3C0022B925 /* Exercise8ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B11DC6026491E3C0022B925 /* Exercise8ViewControllerTests.swift */; };
+		8B11DC6B26491F7B0022B925 /* TransportationFeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B11DC6A26491F7B0022B925 /* TransportationFeeTests.swift */; };
+		8B11DC7126491FBC0022B925 /* BadmintonFeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B11DC7026491FBC0022B925 /* BadmintonFeeTests.swift */; };
 		9C90E28025148AD600EFE188 /* Exersice6Assembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C90E27B25148AD600EFE188 /* Exersice6Assembler.swift */; };
 		9C90E28125148AD600EFE188 /* Exersice6UseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C90E27C25148AD600EFE188 /* Exersice6UseCase.swift */; };
 		9C90E28225148AD600EFE188 /* Exercise6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C90E27D25148AD600EFE188 /* Exercise6ViewController.swift */; };
@@ -323,6 +333,16 @@
 		716A536A2511A7AE0034DC60 /* Exercise2ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise2ViewModel.swift; sourceTree = "<group>"; };
 		716A536B2511A7AE0034DC60 /* Exercise2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise2ViewController.swift; sourceTree = "<group>"; };
 		716A53712511AE650034DC60 /* CalculatingFee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatingFee.swift; sourceTree = "<group>"; };
+		8B11DC5026491BEA0022B925 /* Exercise7NavigatorMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise7NavigatorMock.swift; sourceTree = "<group>"; };
+		8B11DC5126491BEA0022B925 /* Exercise7ViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise7ViewControllerTests.swift; sourceTree = "<group>"; };
+		8B11DC5226491BEA0022B925 /* Exercise7ViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise7ViewModelTests.swift; sourceTree = "<group>"; };
+		8B11DC5326491BEB0022B925 /* Exercise7UseCaseMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise7UseCaseMock.swift; sourceTree = "<group>"; };
+		8B11DC5D26491E3C0022B925 /* Exercise8ViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise8ViewModelTests.swift; sourceTree = "<group>"; };
+		8B11DC5E26491E3C0022B925 /* Exercise8NavigatorMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise8NavigatorMock.swift; sourceTree = "<group>"; };
+		8B11DC5F26491E3C0022B925 /* Exercise8UseCaseMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise8UseCaseMock.swift; sourceTree = "<group>"; };
+		8B11DC6026491E3C0022B925 /* Exercise8ViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise8ViewControllerTests.swift; sourceTree = "<group>"; };
+		8B11DC6A26491F7B0022B925 /* TransportationFeeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportationFeeTests.swift; sourceTree = "<group>"; };
+		8B11DC7026491FBC0022B925 /* BadmintonFeeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadmintonFeeTests.swift; sourceTree = "<group>"; };
 		9C90E27B25148AD600EFE188 /* Exersice6Assembler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exersice6Assembler.swift; sourceTree = "<group>"; };
 		9C90E27C25148AD600EFE188 /* Exersice6UseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exersice6UseCase.swift; sourceTree = "<group>"; };
 		9C90E27D25148AD600EFE188 /* Exercise6ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise6ViewController.swift; sourceTree = "<group>"; };
@@ -682,6 +702,8 @@
 		177763ED261E8BE3005CC014 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				8B11DC4F2649195B0022B925 /* Exercise8 */,
+				8B11DC4A264917420022B925 /* Exercise7 */,
 				177763EE261E8BE3005CC014 /* TestError.swift */,
 				177763EF261E8BE3005CC014 /* App */,
 				177763F8261E8BE4005CC014 /* Exercise2 */,
@@ -945,6 +967,46 @@
 				716A536A2511A7AE0034DC60 /* Exercise2ViewModel.swift */,
 			);
 			path = Exercise2;
+			sourceTree = "<group>";
+		};
+		8B11DC4A264917420022B925 /* Exercise7 */ = {
+			isa = PBXGroup;
+			children = (
+				8B11DC5C26491E0B0022B925 /* TransportationFeeTests */,
+				8B11DC5026491BEA0022B925 /* Exercise7NavigatorMock.swift */,
+				8B11DC5326491BEB0022B925 /* Exercise7UseCaseMock.swift */,
+				8B11DC5126491BEA0022B925 /* Exercise7ViewControllerTests.swift */,
+				8B11DC5226491BEA0022B925 /* Exercise7ViewModelTests.swift */,
+			);
+			path = Exercise7;
+			sourceTree = "<group>";
+		};
+		8B11DC4F2649195B0022B925 /* Exercise8 */ = {
+			isa = PBXGroup;
+			children = (
+				8B11DC6926491E540022B925 /* BadmintonFeeTests */,
+				8B11DC5E26491E3C0022B925 /* Exercise8NavigatorMock.swift */,
+				8B11DC5F26491E3C0022B925 /* Exercise8UseCaseMock.swift */,
+				8B11DC6026491E3C0022B925 /* Exercise8ViewControllerTests.swift */,
+				8B11DC5D26491E3C0022B925 /* Exercise8ViewModelTests.swift */,
+			);
+			path = Exercise8;
+			sourceTree = "<group>";
+		};
+		8B11DC5C26491E0B0022B925 /* TransportationFeeTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B11DC6A26491F7B0022B925 /* TransportationFeeTests.swift */,
+			);
+			path = TransportationFeeTests;
+			sourceTree = "<group>";
+		};
+		8B11DC6926491E540022B925 /* BadmintonFeeTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B11DC7026491FBC0022B925 /* BadmintonFeeTests.swift */,
+			);
+			path = BadmintonFeeTests;
 			sourceTree = "<group>";
 		};
 		9C90E27A25148AD600EFE188 /* Exercise6 */ = {
@@ -1260,12 +1322,19 @@
 				17776488261E8BE4005CC014 /* GettingExercisesTests.swift in Sources */,
 				1777648A261E8BE4005CC014 /* CalculateFeeTest.swift in Sources */,
 				17776494261E8BE4005CC014 /* ClotherOrderTests.swift in Sources */,
+				8B11DC5426491BEB0022B925 /* Exercise7NavigatorMock.swift in Sources */,
 				17776486261E8BE4005CC014 /* ExerciseGatewayMock.swift in Sources */,
 				1777645D261E8BE4005CC014 /* Exercise3ViewControllerTests.swift in Sources */,
+				8B11DC7126491FBC0022B925 /* BadmintonFeeTests.swift in Sources */,
+				8B11DC5526491BEB0022B925 /* Exercise7ViewControllerTests.swift in Sources */,
+				8B11DC6B26491F7B0022B925 /* TransportationFeeTests.swift in Sources */,
 				17776451261E8BE4005CC014 /* AppViewModelTests.swift in Sources */,
 				17776458261E8BE4005CC014 /* Exercise2ViewModelTests.swift in Sources */,
+				8B11DC6226491E3C0022B925 /* Exercise8NavigatorMock.swift in Sources */,
+				8B11DC6326491E3C0022B925 /* Exercise8UseCaseMock.swift in Sources */,
 				1777648B261E8BE4005CC014 /* CaculatingClotherDiscountTest.swift in Sources */,
 				1777647D261E8BE4005CC014 /* MainViewControllerTests.swift in Sources */,
+				8B11DC5726491BEB0022B925 /* Exercise7UseCaseMock.swift in Sources */,
 				1777645F261E8BE4005CC014 /* Exercise3UseCaseMock.swift in Sources */,
 				17776452261E8BE4005CC014 /* AppUseCaseMock.swift in Sources */,
 				17776450261E8BE4005CC014 /* TestError.swift in Sources */,
@@ -1277,8 +1346,11 @@
 				1777647F261E8BE4005CC014 /* MainViewModelTests.swift in Sources */,
 				17776453261E8BE4005CC014 /* AppNavigatorMock.swift in Sources */,
 				17776459261E8BE4005CC014 /* Exercise2ViewControllerTests.swift in Sources */,
+				8B11DC6126491E3C0022B925 /* Exercise8ViewModelTests.swift in Sources */,
+				8B11DC6426491E3C0022B925 /* Exercise8ViewControllerTests.swift in Sources */,
 				17776487261E8BE4005CC014 /* DateGatewayMock.swift in Sources */,
 				1777645B261E8BE4005CC014 /* Exercise2NavigatorMock.swift in Sources */,
+				8B11DC5626491BEB0022B925 /* Exercise7ViewModelTests.swift in Sources */,
 				1777645E261E8BE4005CC014 /* Exercise3ViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1478,7 +1550,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = UnitTestTrainingTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1498,7 +1570,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = UnitTestTrainingTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
