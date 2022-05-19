@@ -24,7 +24,6 @@ final class Exercise1ViewModelTests: XCTestCase {
     private let isVoucherTrigger = BehaviorRelay<Bool>(value: true)
     private let dateTrigger = BehaviorRelay<Date>(value: Date())
     private let loadTrigger = PublishSubject<Void>()
-    private let calculateBeerPrice = PublishSubject<Void>()
     
     override func setUp() {
         super.setUp()
@@ -46,10 +45,27 @@ final class Exercise1ViewModelTests: XCTestCase {
         XCTAssert(self.useCase.calculateBeerPrice)
     }
     
-    func testOutPut() {
-        self.useCase.calculateBeerPriceValues = 13
+
+    func test_isVoucher_Trigger() {
+        isVoucherTrigger.accept(true)
+        useCase.calculateBeerPriceValues = 100
         loadTrigger.onNext(())
-        XCTAssertEqual(self.useCase.calculateBeerPriceValues, 13)
+        
+        XCTAssertEqual(output.price, (100).japanCurrency)
+
+        
+    }
+    func test_dateTrigger() {
+        dateTrigger.accept(Date(hour: 16)!)
+        useCase.calculateBeerPriceValues = 290
+        loadTrigger.onNext(())
+
+        XCTAssertEqual(output.price, (290).japanCurrency)
+
+    }
+    func testOutPut() {
+        useCase.calculateBeerPriceValues = 13
+        loadTrigger.onNext(())
         XCTAssertEqual(output.price, (13).japanCurrency)
     }
     
