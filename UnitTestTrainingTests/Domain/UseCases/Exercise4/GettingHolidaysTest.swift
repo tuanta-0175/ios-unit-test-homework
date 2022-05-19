@@ -23,10 +23,11 @@ final class GettingHolidaysTest: XCTestCase, GettingHolidays {
         dateGateWayMock = DateGatewayMock()
     }
     
-    func test_getHiliday() {
-        let result = dateGateWayMock.getHolidays()
-        XCTAssert(self.dateGateWayMock.getHolidaysCalled)
-        XCTAssertNotNil(result)
+
+    func test_getHoliday() {
+        let result = getHolidays()
+        XCTAssertTrue(self.dateGateWayMock.getHolidaysCalled)
+        XCTAssertEqual(result, self.dateGateWayMock.getHolidaysReturnValue)
     }
     
     
