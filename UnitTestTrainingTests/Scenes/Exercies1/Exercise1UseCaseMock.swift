@@ -12,8 +12,10 @@ import RxSwift
 import Dto
 
 final class Exercise1UseCaseMock: Exercise1UseCaseType {
+
     var calculateBeerPriceValues: Double = 0
     var calculateBeerPrice = false
+
     func calculateBeerPrice(dto: BeerOrderDto) -> Double {
         calculateBeerPrice = true
         return calculateBeerPriceValues
