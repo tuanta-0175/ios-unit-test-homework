@@ -54,7 +54,7 @@ final class Exercise1ViewModelTests: XCTestCase {
     
     func test_voucherTriggerInvoked_calculateBeerPrice() {
         self.useCase.calculateBeerPriceValue = 100.0
-        let _ = voucherTrigger.accept(true)
+        voucherTrigger.accept(true)
         
         XCTAssert(self.useCase.calculateBeerPriceCalled)
         XCTAssertEqual(output.price, (100.0).japanCurrency)
@@ -62,7 +62,7 @@ final class Exercise1ViewModelTests: XCTestCase {
     
     func test_purchaseTimeTriggerInvoked_calculateBeerPrice() {
         self.useCase.calculateBeerPriceValue = 290.0
-        let _ = purchaseTimeTrigger.accept(Date())
+        purchaseTimeTrigger.accept(Date())
         
         XCTAssert(self.useCase.calculateBeerPriceCalled)
         XCTAssertEqual(output.price, (290.0).japanCurrency)
