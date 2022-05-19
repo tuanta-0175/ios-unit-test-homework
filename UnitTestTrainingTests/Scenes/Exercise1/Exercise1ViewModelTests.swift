@@ -40,13 +40,32 @@ final class Exercise1ViewModelTests: XCTestCase {
             voucherTrigger: voucherTrigger.asDriver(),
             purchaseTimeTrigger: purchaseTimeTrigger.asDriver()
         )
+        
         output = viewModel.transform(input, disposeBag: disposeBag)
     }
     
-    func test_calculateBeerPrice() {
+    func test_loadTriggerInvoked_calculateBeerPrice() {
+        self.useCase.calculateBeerPriceValue = 490.0
         loadTrigger.onNext(())
         
         XCTAssert(self.useCase.calculateBeerPriceCalled)
+        XCTAssertEqual(output.price, (490.0).japanCurrency)
+    }
+    
+    func test_voucherTriggerInvoked_calculateBeerPrice() {
+        self.useCase.calculateBeerPriceValue = 100.0
+        let _ = voucherTrigger.accept(true)
+        
+        XCTAssert(self.useCase.calculateBeerPriceCalled)
+        XCTAssertEqual(output.price, (100.0).japanCurrency)
+    }
+    
+    func test_purchaseTimeTriggerInvoked_calculateBeerPrice() {
+        self.useCase.calculateBeerPriceValue = 290.0
+        let _ = purchaseTimeTrigger.accept(Date())
+        
+        XCTAssert(self.useCase.calculateBeerPriceCalled)
+        XCTAssertEqual(output.price, (290.0).japanCurrency)
     }
     
 }

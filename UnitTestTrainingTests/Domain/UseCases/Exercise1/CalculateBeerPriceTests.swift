@@ -23,7 +23,7 @@ class CalculateBeerPriceTests: XCTestCase, CalculatingBeerPrice {
     }
     
     func test_notUseVoucher_inPromotionTime() {
-        let date = Date.createDayWith(string: "2022/05/18 10:10:00") // 17:10:00 // +7
+        let date = Date(hour: 17) ?? Date() // Date.createDayWith(string: "2022/05/18 10:10:00") // 17:10:00 // +7
         let dto = BeerOrderDto(usingVoucher: false, purchaseTime: date)
         let result = self.calculateBeerPrice(dto: dto)
         
@@ -31,7 +31,7 @@ class CalculateBeerPriceTests: XCTestCase, CalculatingBeerPrice {
     }
     
     func test_notUseVoucher_notInPromotionTime() {
-        let date = Date.createDayWith(string: "2022/05/18 11:30:00") // 18:30:00 // +7
+        let date = Date(hour: 18) ?? Date()
         let dto = BeerOrderDto(usingVoucher: false, purchaseTime: date)
         let result = self.calculateBeerPrice(dto: dto)
         
