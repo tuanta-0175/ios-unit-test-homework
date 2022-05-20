@@ -30,8 +30,25 @@ final class GettingDateColorTest: XCTestCase, GettingDateColor, GettingHolidays 
         return formatter.date(from: string) ?? Date()
     }
     
-    func test_isHolidays() {
-        let dto = GetDateColorDto(date: self.getHolidays()[0], holidays: self.getHolidays())
+    func test_isHolidays_sunday() {
+        let date = createDayWith(string: "2022/05/01")
+        let dto = GetDateColorDto(date: date, holidays: self.getHolidays())
+        let result = self.getDateColor(dto: dto)
+        
+        XCTAssertEqual(result, .red)
+    }
+    
+    func test_isHolidays_saturday() {
+        let date = createDayWith(string: "2022/04/30")
+        let dto = GetDateColorDto(date: date, holidays: self.getHolidays())
+        let result = self.getDateColor(dto: dto)
+        
+        XCTAssertEqual(result, .red)
+    }
+    
+    func test_isHolidays_normalDay() {
+        let date = createDayWith(string: "2022/09/02")
+        let dto = GetDateColorDto(date: date, holidays: self.getHolidays())
         let result = self.getDateColor(dto: dto)
         
         XCTAssertEqual(result, .red)

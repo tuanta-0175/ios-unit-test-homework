@@ -20,5 +20,8 @@ final class Exercise4ViewControllerTests: XCTestCase {
 
     func test_ibOutlets() {
         _ = viewController.view
+        XCTAssertNotNil(viewController.dateBackgroundView)
+        XCTAssertNotNil(viewController.dateLabel)
+        XCTAssertNotNil(viewController.datePicker)
     }
 }

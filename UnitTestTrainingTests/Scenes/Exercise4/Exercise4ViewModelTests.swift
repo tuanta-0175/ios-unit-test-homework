@@ -46,9 +46,11 @@ final class Exercise4ViewModelTests: XCTestCase {
         XCTAssert(self.useCase.getHolidaysCalled)
     }
     
-    func test_submitTriggerInvoked_getDateColor() {
+    func test_dateTriggerInvoked_getDateColor() {
+        self.useCase.getDateColorValues = .red
         loadTrigger.onNext(())
         
         XCTAssert(self.useCase.getDateColorCalled)
+        XCTAssertEqual(output.dateColor, .red)
     }
 }
