@@ -16,6 +16,6 @@ enum ReceiveMethod: Int {
 enum PromotionType {
     case discount20Percent
     case freePotato
-    case freeOnMonday
+    case freeSecondPizza
     case none
 }
