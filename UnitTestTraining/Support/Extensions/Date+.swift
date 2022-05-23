@@ -20,6 +20,13 @@ extension Date {
         return DayInWeek(rawValue: calendar.dateComponents([.weekday], from: self).weekday ?? 0) ?? .none
     }
     
+    static func createDayWith(string: String) -> Date {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "yyyy/MM/dd HH:mm:ss"
+        formatter.timeZone = TimeZone(secondsFromGMT: 7)
+        return formatter.date(from: string) ?? Date()
+    }
+    
     enum DayInWeek: Int {
         case none = 0
         case sunday
