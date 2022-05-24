@@ -57,7 +57,7 @@ extension CalculatePizzaFee {
         }
         
         if dto.receiveMethod == .takeAway {
-            promotions.append(.freeOnMonday)
+            promotions.append(.freeSecondPizza)
         } else if dto.usingCoupon && dto.receiveMethod == .deliver {
             promotions.append(.discount20Percent)
             price *= 0.8
