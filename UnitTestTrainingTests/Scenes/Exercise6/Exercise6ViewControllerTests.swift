@@ -18,7 +18,7 @@ final class Exercise6ViewControllerTests: XCTestCase {
         viewController = Exercise6ViewController.instantiate()
     }
     
-    private func test_ibOutlets() {
+    func test_ibOutlets() {
         _ = viewController.view
         XCTAssertNotNil(viewController.moneySpentTextField)
         XCTAssertNotNil(viewController.errorMessageLabel)

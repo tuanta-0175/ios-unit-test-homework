@@ -15,10 +15,10 @@ class Exercise7ViewControllerTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
-        viewController = Exercise7ViewController()
+        viewController = Exercise7ViewController.instantiate()
     }
     
-    private func test_ibOutlets() {
+    func test_ibOutlets() {
         _ = viewController.view
         XCTAssertNotNil(viewController.cartAmountTextField)
         XCTAssertNotNil(viewController.errorLabel)

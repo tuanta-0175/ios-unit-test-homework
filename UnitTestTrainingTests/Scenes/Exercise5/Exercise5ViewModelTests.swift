@@ -48,11 +48,11 @@ final class Exercise5ViewModelTests: XCTestCase {
         output = viewModel.transform(input, disposeBag: disposeBag)
     }
     
-    private func test_loadTrigger() {
+    func test_loadTrigger() {
         loadTrigger.onNext(())
     }
     
-    private func test_priceTrigger() {
+    func test_priceTrigger() {
         self.useCase.validatePizzaPriceValue = ValidationResult.success(())
         priceTrigger.accept("")
         
@@ -60,7 +60,7 @@ final class Exercise5ViewModelTests: XCTestCase {
         XCTAssertEqual(output.errorMessage, "")
     }
     
-    private func test_priceTrigger_error() {
+    func test_priceTrigger_error() {
         let errorMessage = "Giá thành phải lớn hơn 0"
         
         self.useCase.validatePizzaPriceValue = ValidationResult.failure(ValidationError.init(message: errorMessage))
@@ -70,7 +70,7 @@ final class Exercise5ViewModelTests: XCTestCase {
         XCTAssertEqual(output.errorMessage, errorMessage)
     }
     
-    private func test_intoMoneyTrigger() {
+    func test_intoMoneyTrigger() {
         let promotionValues: [PromotionType] = [.freePotato, .freeSecondPizza]
         
         self.useCase.calculateFeeValue = CalculatePizzaFeeResult(fee: 2000, promotions: promotionValues)

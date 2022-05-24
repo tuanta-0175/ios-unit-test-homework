@@ -18,7 +18,7 @@ final class Exercise5ViewControllerTests: XCTestCase {
         viewController = Exercise5ViewController.instantiate()
     }
     
-    private func test_ibOutlets() {
+    func test_ibOutlets() {
         _ = viewController.view
         XCTAssertNotNil(viewController.couponView)
         XCTAssertNotNil(viewController.priceTextField)

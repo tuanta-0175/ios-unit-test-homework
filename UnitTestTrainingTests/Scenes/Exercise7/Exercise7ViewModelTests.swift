@@ -47,15 +47,15 @@ class Exercise7ViewModelTests: XCTestCase {
         output = viewModel.transform(input, disposeBag: disposeBag)
     }
     
-    private func test_cartAmountTrigger_success() {
+    func test_cartAmountTrigger_success() {
         self.useCase.validateCardAmountValue = ValidationResult.success(())
-        cartAmountTrigger.accept("100")
+        cartAmountTrigger.accept("")
         
         XCTAssert(self.useCase.validateCardAmountCalled)
         XCTAssertEqual(output.errorMessage, "")
     }
     
-    private func test_cartAmountTrigger_error() {
+    func test_cartAmountTrigger_error() {
         let errorMessage = "Must input number"
         
         self.useCase.validateCardAmountValue = ValidationResult.failure(ValidationError(message: errorMessage))
@@ -65,7 +65,7 @@ class Exercise7ViewModelTests: XCTestCase {
         XCTAssertEqual(output.errorMessage, errorMessage)
     }
     
-    private func test_calculateDeliverFee() {
+    func test_calculateDeliverFee() {
         self.useCase.calculationFeeValue = (standardFee: 0.0, quickFee: 500.0)
         
         isPremiumTrigger.accept(true)

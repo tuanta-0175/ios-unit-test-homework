@@ -25,7 +25,7 @@ final class Exercise7UseCaseMock: XCTestCase, Exercise7UseCaseType {
     var validateCardAmountValue = ValidationResult.success(())
     
     func validateCardAmount(_ amount: String) -> ValidationResult {
-        validateCardAmountCalled = false
+        validateCardAmountCalled = true
         return validateCardAmountValue
     }
     

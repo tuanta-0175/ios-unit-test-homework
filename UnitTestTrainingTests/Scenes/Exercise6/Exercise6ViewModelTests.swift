@@ -40,14 +40,14 @@ final class Exercise6ViewModelTests: XCTestCase {
         output = viewModel.transform(input, disposeBag: disposeBag)
     }
     
-    private func test_moneySpentTrigger_success() {
+    func test_moneySpentTrigger_success() {
         self.useCase.validateMoneyAmountValue = ValidationResult.success(())
         moneySpentTrigger.accept("100")
         XCTAssert(self.useCase.validateMoneyAmountCalled)
         XCTAssertEqual(output.errorMessage, "")
     }
     
-    private func test_moneySpentTrigger_error() {
+    func test_moneySpentTrigger_error() {
         let errorMessage = "Must input number"
         self.useCase.validateMoneyAmountValue = ValidationResult.failure(ValidationError(message: errorMessage))
         moneySpentTrigger.accept("")
@@ -55,7 +55,7 @@ final class Exercise6ViewModelTests: XCTestCase {
         XCTAssertEqual(output.errorMessage, errorMessage)
     }
     
-    private func test_calculateFreeMinutes() {
+    func test_calculateFreeMinutes() {
         self.useCase.calculateFreeMinutesValue = 300.0
         isWatchMovieTrigger.accept(true)
         moneySpentTrigger.accept("5000")
