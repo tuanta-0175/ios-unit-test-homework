@@ -90,7 +90,7 @@ extension Exercise5ViewController {
     var fee: Binder<CalculatePizzaFeeResult> {
         return Binder(self) { vc, result in
             let hasPotatoPromotion = result.promotions.contains(.freePotato)
-            let hasMondayPromotion = result.promotions.contains(.freeOnMonday)
+            let hasMondayPromotion = result.promotions.contains(.freeSecondPizza)
             vc.discountButton.isHidden = !result.promotions.contains(.discount20Percent)
             vc.potatoPromotionButton.isHidden = !hasPotatoPromotion
             vc.freeMondayPromotionButton.isHidden = !hasMondayPromotion
